@@ -1,0 +1,172 @@
+html, body {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.header h2 {
+    margin: 5px 0px 0px 0px;
+}
+.header h4 {
+    margin: 0px 0px -5px 0px;
+}
+.filter {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.filter .btn {
+    padding: 0px;
+}
+.filter .checkbox label {
+    margin-right: 10px;
+}
+.item {
+    border-top: 1px dashed #AAA;
+}
+.thb {
+    width: 112px;
+    height: 112px;
+    display: inline-block;
+    background-position: 72px 0px, bottom left, 65px 65px, 0px, 0px, 0px !important;
+    background-size: 40px, auto 32px, 60px, auto, auto, auto !important;
+}
+.thb-txt {
+    width: 112px;
+    text-align: center;
+}
+.icon {
+    object-fit: cover;
+    object-position: center;
+    width: 50px;
+    height: 50px;
+}
+.icon2 { /* element icon */
+    background-position: center;
+    background-size: 42px 42px;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon2-xs { /* element icon, thumbnail */
+    background-position: center;
+    background-size: 30px 30px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon2-sl { /* slot icon */
+    background-position: center;
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon3 { /* slot icon */
+    object-fit: cover;
+    object-position: center;
+    width: 28px;
+    height: 28px;
+}
+.icon35 { /* type icon in list */
+    object-fit: cover;
+    object-position: center;
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+.icon4 { /* slot icon, thumnail */
+    object-fit: cover;
+    object-position: center;
+    width: 20px;
+    height: 20px;
+    vertical-align: text-bottom;
+}
+.item-info h4 {
+    margin: 0px;
+}
+.item-info h4 .title {
+    font-weight: bold;
+}
+.item-info h4 .title marquee {
+    margin-bottom: -4px;
+}
+.item-info h4 div {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.hand {
+    cursor: pointer;
+}
+.badge.limited {
+    background-color: #C93;
+    vertical-align: text-top;
+}
+.badge.evt {
+    background-color: #393;
+    vertical-align: text-top;
+}
+.limited.txt {
+    color: #C93;
+}
+.evt.txt {
+    color: #393;
+}
+#emu-sum, #emu-info {
+    margin-top: 10px;
+}
+#emu-modal .chooser, #cmb_emu_desc {
+    margin-top: 10px;
+}
+.txt-gold {
+    color: #D5AD6D;
+    background: -webkit-linear-gradient(transparent, transparent),
+                -webkit-linear-gradient(top,
+            rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%,
+            rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%,
+            rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 600px) {
+    .thb {
+        width: 90px;
+        height: 90px;
+        display: inline-block;
+        background-position: 58px 0px, bottom left, 43px 43px, 0px, 0px, 0px !important;
+        background-size: 32px, auto 32px, 60px, 90px, 90px, 90px !important;
+    }
+    .thb-txt { width: 90px; }
+    /*
+    .thb_v_2 { display: none !important; }
+    */
+}
+
+/* small devices */
+@media (max-width: 400px) {
+  /*
+  .item-info h4 { font-size: 15px; }
+  */
+  .skill { font-size: 16px; font-weight: bold; }
+}
+
+/* iphone4 */
+@media (max-width: 320px) {
+    .thb {
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        background-position: 40px 0px, bottom left, 35px 35px, 0px, 0px, 0px !important;
+        background-size: 30px, auto 25px, 45px, 70px, 70px, 70px !important;
+    }
+    .thb-txt { width: 70px; }
+    /*
+    .item-info h4 .title { font-size: 13px; }
+    */
+    .skill { font-size: 14px; font-weight: bold; }
+}

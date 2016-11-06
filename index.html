@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Game database of Slingshot Braves Mobile Game">
+        <meta name="keywords" content="slingshot,braves,mobile,rpg,action,game,database,db,ssb,line,thailand,thai,group">
+        <meta name="author" content="diewland">
+
+        <title>SSB Wear</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Lightbox -->
+        <link href="css/lightbox.css" rel="stylesheet" />
+
+        <!-- Custom -->
+        <link href="css/base.css" rel="stylesheet" />
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class='header container'>
+            <h2>SSBWear</h2>
+            <h4>Slingshot Braves Game DB</h4>
+        </div>
+
+        <div class='container' style='margin-top: 10px;'>
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a id='db-link' href="#db" aria-controls="db" role="tab" data-toggle="tab">DB</a></li>
+                <li role="presentation"><a id='p1-link' href="#p1" aria-controls="p1" role="tab" data-toggle="tab">P1</a></li>
+                <li role="presentation"><a id='p2-link' href="#p2" aria-controls="p2" role="tab" data-toggle="tab">P2</a></li>
+                <li role="presentation"><a id='p3-link' href="#p3" aria-controls="p3" role="tab" data-toggle="tab">P3</a></li>
+                <li role="presentation"><a id='log-link' href="#log" aria-controls="log" role="tab" data-toggle="tab">Log</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+
+                <!-- Database Tab -->
+                <div role="tabpanel" class="tab-pane active" id="db">
+                    <div class='filter'>
+                        <div class='row'>
+                            <div class='col-sm-6'>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="txt-title" placeholder="Enter item name" value='' />
+                                    <span class="input-group-btn">
+                                        <button id='btn-x' class="btn btn-default" style='padding: 6px;' type="button">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class='col-sm-6'>
+                                <div class="checkbox">
+                                    <select id='cmb-brave'>
+                                        <option value='0'>+0</option>
+                                        <option value='10'>+10</option>
+                                        <option value='15'>+15</option>
+                                        <option selected value='20'>+20</option>
+                                    </select>
+                                    &nbsp;
+                                    <label>
+                                        <input id='chk-limited' type="checkbox" /> Limited
+                                    </label>
+                                    <label>
+                                        <input id='chk-event' type="checkbox" /> Event
+                                    </label>
+                                    <div class='pull-right'>
+                                        <a href='#/' id='gender' class='btn btn-xs btn-default' title='Gender'>&nbsp;<span class="glyphicon glyphicon-retweet"></span>&nbsp;</a>
+                                        <a href='#/' id='sort_by' class='btn btn-xs btn-default' title='Sort by'>&nbsp;<span class="glyphicon glyphicon-sort-by-attributes-alt"></span>&nbsp;</a>
+                                        <a href='#/' id='view_by' class='btn btn-xs btn-default' title='View by'>&nbsp;<span class="glyphicon glyphicon-th-list"></span>&nbsp;</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-xs-4'>
+                                <select id='cmb-type' class="form-control">
+                                    <option value=''>Gears</option>
+                                    <option value='Equipment'>Equipment</option>
+                                    <option value='Equipment Head'> - Head</option>
+                                    <option value='Equipment Armor'> - Armor</option>
+                                    <option value='Weapon'>Weapon</option>
+                                    <option value='Weapon Fist'> - Fist</option>
+                                    <option value='Weapon Lance'> - Lance</option>
+                                    <option value='Weapon Staff'> - Staff</option>
+                                    <option value='Weapon Sword'> - Sword</option>
+                                    <option value='Weapon Hammer'> - Hammer</option>
+                                </select>
+                            </div>
+                            <div class='col-xs-4'>
+                                <select id='cmb-material' class="form-control">
+                                    <option value=''>Materials</option>
+                                    <option value='Iron'> - Iron</option>
+                                    <option value='Crystal'> - Crystal</option>
+                                    <option value='Horn'> - Horn</option>
+                                    <option value='Wood'> - Wood</option>
+                                    <option value='Fragment'> - Fragment</option>
+                                </select>
+                            </div>
+                            <div class='col-xs-4'>
+                                <select id='cmb-element' class="form-control">
+                                    <option value=''>Elements</option>
+                                    <option value='FIR'>Fire</option>
+                                    <option value='ICE'>Ice</option>
+                                    <option value='WND'>Wind</option>
+                                    <option value='ELE'>Electric</option>
+                                    <option value='LHT'>Light</option>
+                                    <option value='DRK'>Dark</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-xs-4'>
+                                <select id='cmb-stone' class="form-control">
+                                    <option value=''>Stones</option>
+                                    <option value='ATK'>Attack</option>
+                                    <option value='DEF'>Defense</option>
+                                    <option value='HP'>HP</option>
+                                    <option value='CMB'>Combo</option>
+                                    <option value='SKL'>Skill</option>
+                                    <option value='EFR'>Elite Fury</option>
+                                    <option value='HEA'>Heal</option>
+                                    <option value='LSG'>Heal - Party</option>
+                                    <option value='HAS'>Haste</option>
+                                    <option value='GOO'>Haste - Party</option>
+                                    <option value='QUI'>Quick Turn</option>
+                                    <option value='SKA'>Gauge Auto Fill</option>
+                                    <option value='TOP'>Gauge Auto Fill - Party</option>
+                                    <option value='SKG'>Gauge Speed Up</option>
+                                    <option value='COU'>Counter</option>
+                                    <option value='ASM'>Assimilation</option>
+                                </select>
+                            </div>
+                            <div class='col-xs-4'>
+                                <select id='cmb-hole' class="form-control">
+                                    <option value=''>Slots</option>
+                                    <option value='CIR'>Circle</option>
+                                    <option value='DAI'>Diamond</option>
+                                    <option value='KIT'>Shield</option>
+                                    <option value='PAR'>Hexed</option>
+                                    <option value='REC'>Rectangle</option>
+                                    <option value='STA'>Star</option>
+                                    <option value='TRI'>Triangle</option>
+                                </select>
+                            </div>
+                            <div class='col-xs-4'>
+                                <select id='cmb-skill' class="form-control">
+                                    <option value=''>Skills</option>
+                                </select>
+                            </div>
+                        </div>
+                        <sub id='total'>Loading..</sub>
+                    </div>
+                    <div class='item-wrapper'></div>
+                </div>
+
+                <!-- P1 Tab -->
+                <div role="tabpanel" class="tab-pane" id="p1">
+                    <div class='row'>
+                        <div class='emu-wrapper col-md-8'>
+                            <br />
+                            Choose items from
+                            <i><a href='#' onclick="$('#db-link').tab('show');">Database tab</a></i>
+                        </div>
+                        <div class='summary col-md-4'>
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a id='p1-sum-link' href="#p1-sum" aria-controls="p1-sum" role="tab" data-toggle="tab">Summary</a></li>
+                                <li role="presentation"><a id='p1-info-link' href="#p1-info" aria-controls="p1-info" role="tab" data-toggle="tab">Info</a></li>
+                                <li role="presentation"><a href="#p1-graph" aria-controls="p1-graph" role="tab" data-toggle="tab">Graph</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="p1-sum">
+                                    <div id='emu-sum'>No effect</div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="p1-info">
+                                    <div id='emu-info'>
+                                        <ul>
+                                            <li>Weapon<ul class='Weapon'></ul></li>
+                                            <li>Head<ul class='Head'></ul></li>
+                                            <li>Armor<ul class='Armor'></ul></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="p1-graph">
+                                    <br />
+                                    <canvas></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- P2 Tab -->
+                <div role="tabpanel" class="tab-pane" id="p2">
+                    <div class='row'>
+                        <div class='emu-wrapper col-md-8'>
+                            <br />
+                            Choose items from
+                            <i><a href='#' onclick="$('#db-link').tab('show');">Database tab</a></i>
+                        </div>
+                        <div class='summary col-md-4'>
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a id='p2-sum-link' href="#p2-sum" aria-controls="p2-sum" role="tab" data-toggle="tab">Summary</a></li>
+                                <li role="presentation"><a id='p2-info-link' href="#p2-info" aria-controls="p2-info" role="tab" data-toggle="tab">Info</a></li>
+                                <li role="presentation"><a href="#p2-graph" aria-controls="p2-graph" role="tab" data-toggle="tab">Graph</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="p2-sum">
+                                    <div id='emu-sum'>No effect</div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="p2-info">
+                                    <div id='emu-info'>
+                                        <ul>
+                                            <li>Weapon<ul class='Weapon'></ul></li>
+                                            <li>Head<ul class='Head'></ul></li>
+                                            <li>Armor<ul class='Armor'></ul></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="p2-graph">
+                                    <br />
+                                    <canvas></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- P3 Tab -->
+                <div role="tabpanel" class="tab-pane" id="p3">
+                    <div class='row'>
+                        <div class='emu-wrapper col-md-8'>
+                            <br />
+                            Choose items from
+                            <i><a href='#' onclick="$('#db-link').tab('show');">Database tab</a></i>
+                        </div>
+                        <div class='summary col-md-4'>
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a id='p3-sum-link' href="#p3-sum" aria-controls="p3-sum" role="tab" data-toggle="tab">Summary</a></li>
+                                <li role="presentation"><a id='p3-info-link' href="#p3-info" aria-controls="p3-info" role="tab" data-toggle="tab">Info</a></li>
+                                <li role="presentation"><a href="#p3-graph" aria-controls="p3-graph" role="tab" data-toggle="tab">Graph</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="p3-sum">
+                                    <div id='emu-sum'>No effect</div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="p3-info">
+                                    <div id='emu-info'>
+                                        <ul>
+                                            <li>Weapon<ul class='Weapon'></ul></li>
+                                            <li>Head<ul class='Head'></ul></li>
+                                            <li>Armor<ul class='Armor'></ul></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="p3-graph">
+                                    <br />
+                                    <canvas></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Log Tab -->
+                <div role="tabpanel" class="tab-pane" id="log">
+                    <iframe src="./db/changelog.txt" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
+                </div>
+
+            </div>
+        </div>
+
+        <div class='footer container text-right'>
+            <sub>
+                Powered by Slingshot Braves TH
+                <br /> English SSB Line Group & Angelic 2 Braves
+            </sub>
+        </div>
+
+        <!-- mod modal -->
+        <div class="modal fade" id="emu-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Equip Elements</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class='els'>Loading..</div>
+                        <div class='chooser'>Loading..</div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Lightbox -->
+        <script src="js/lightbox.min.js"></script>
+        <!-- Load database -->
+        <script type='text/javascript' src='./db/const.js'></script>
+        <script type='text/javascript' src='./db/db-crystal.js'></script>
+        <script type='text/javascript' src='./db/db-wood.js'></script>
+        <script type='text/javascript' src='./db/db-iron.js'></script>
+        <script type='text/javascript' src='./db/db-fragment.js'></script>
+        <script type='text/javascript' src='./db/db-horn.js'></script>
+        <script type='text/javascript' src='./db/db-skill.js'></script>
+        <script type='text/javascript' src='./db/db-weapon.js'></script>
+        <script type='text/javascript' src='./db/db-slot.js'></script>
+
+        <!-- Display & Filter -->
+        <script type='text/javascript' src='./js/thumb.js'></script>
+        <script type='text/javascript' src='./js/core.js'></script>
+        <script type='text/javascript' src='./js/slot.js'></script>
+
+        <!-- Simulator -->
+        <script type='text/javascript' src='./js/Chart.min.js'></script>
+        <script type='text/javascript' src='./js/emu.js'></script>
+
+        <script type='text/javascript'>
+
+            // some functions
+            function update_screen_items(){
+                if( $('#cmb-stone').val() + $('#cmb-hole').val() == '' ){ DISPLAY_BY = SORT_BY; }
+                update_items();
+            }
+
+            // display from filter
+            update_items();
+
+            // gender button
+            $('#gender').on('click', function(){
+                GENDER = 1 - GENDER;
+                update_items();
+            });
+
+            // bind sort button
+            $('#sort_by').on('click', function(){
+                if( SORT_BY == 'score2' ){ // score2 -> cost
+                    SORT_BY = 'cost';
+                    $('#sort_by span').removeClass('glyphicon-sort-by-attributes-alt');
+                    $('#sort_by span').addClass('glyphicon-euro');
+                    update_items();
+                }
+                else { // cost -> score2
+                    SORT_BY = 'score2';
+                    $('#sort_by span').removeClass('glyphicon-euro');
+                    $('#sort_by span').addClass('glyphicon-sort-by-attributes-alt');
+                    update_items();
+                }
+            });
+
+            // bind view button
+            $('#view_by').on('click', function(){
+                if( DISPLAY_MODE == 'list' ){ // list -> thb
+                    DISPLAY_MODE = 'thb';
+                    $('#view_by span').removeClass('glyphicon-th-list');
+                    $('#view_by span').addClass('glyphicon-th');
+                    update_items();
+                }
+                else { // thb -> list
+                    DISPLAY_MODE = 'list';
+                    $('#view_by span').removeClass('glyphicon-th');
+                    $('#view_by span').addClass('glyphicon-th-list');
+                    update_items();
+                }
+            });
+
+            // bind filter elements
+            $('#txt-title').on('keyup', function(){
+                update_screen_items();
+            });
+            $('#btn-x').on('click', function(){
+                $('#txt-title').val('');
+                $('.filter select').val('');
+                update_items();
+            });
+            $('#cmb-material').on('change', function(){
+                update_screen_items();
+            });
+            $('#cmb-type').on('change', function(){
+                update_screen_items();
+            });
+            $('#cmb-stone').on('change', function(){
+                DISPLAY_BY = 'stn';
+                update_items();
+            });
+            $('#cmb-hole').on('change', function(){
+                DISPLAY_BY = 'hol';
+                update_items();
+            });
+            $('#cmb-element').on('change', function(){
+                update_screen_items();
+            });
+            $('#cmb-brave').on('change', function(){
+                BRAVE_LV = parseInt($(this).val());
+                update_items();
+            });
+            $('#chk-limited').on('change', function(){
+                if($(this).is(':checked')){ $('#chk-event').removeAttr('checked') }
+                update_items();
+            });
+            $('#chk-event').on('change', function(){
+                if($(this).is(':checked')){ $('#chk-limited').removeAttr('checked') }
+                update_items();
+            });
+
+            var skill_names = $.unique($(SKILLS).
+                                map(function(r, v){ return v.name.
+                                    replace('Ultra ', '').
+                                    replace('Ultimate ', '').
+                                    replace('Lethal ', '').
+                                    replace(' Plus', ''); })).toArray();
+            skill_names.sort();
+            skill_names.unshift('----------');
+            skill_names.unshift('Dagger');
+            skill_names.unshift('Boomerang');
+            skill_names.unshift('Ultimate');
+            skill_names.unshift('Lethal');
+            $.each(skill_names, function(i, r) {
+                $('#cmb-skill').append( $('<option></option>').val(r).html(r) )
+            });
+            $('#cmb-skill').on('change', function(){ update_items(); });
+
+            // tabs event
+            $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                var target_id = e.target.id;
+                var target_h  = e.target.hash;
+                var m = null;
+
+                // Database tab
+                if(target_h == '#db'){
+                    // do nothing
+                }
+                // P1-P3 tabs
+                else if(m = target_id.match(/(p\d)-link/)){
+                    var tab_id = '#'+m[1];
+                    marquee_emu_text(tab_id);
+                }
+                // Summary, Info, Graph tabs
+                else {
+                    m = target_h.match(/(p\d)-.+/);
+                    if(m){
+                        var tab_id = '#'+m[1];
+                        // update state
+                        TAB_STATE[tab_id] = target_h;
+                        // if graph tab active, reload graph
+                        if(target_h.match(/graph/)){
+                            reload_emu_chart(tab_id);
+                        }
+                    }
+                }
+            })
+
+            // bind close modal
+            $('#emu-modal').on('hide.bs.modal', function(){
+                update_emu_ui(CUR_MOD_P);
+                update_emu_summary();
+            })
+
+            // adjust log height
+            $('#log iframe').height($('body').height()-160);
+
+            // load emu data
+            load_emu_data();
+            update_emu_ui('#p1');
+            update_emu_ui('#p2');
+            update_emu_ui('#p3');
+            update_emu_summary();
+
+        </script>
+    </body>
+</html>

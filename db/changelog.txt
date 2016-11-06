@@ -1,0 +1,183 @@
+@riryoku on 01/11/2015 09:02 ICT
+- All remaining slots of "Halloween Trickster Hat" have been unlocked.
+
+@riryoku on 30/10/2015 23:35 ICT
+- All remaining slots of "Halloween Night-Reaper", "Halloween Trickster" and "Halloween Tricker Robe" have been unlocked.
+
+@diewland on 30/10/2015 17:00 ICT
+- Added "Halloween Trickster" gacha set
+
+@riryoku on 17/10/2015 00:13 ICT
+- Corrected the square element of "Shadow Knight's Helm".
+
+@riryoku on 16/10/2015 14:57 ICT
+- All remaining slots of "The Hornet Queen" have been unlocked.
+- Updated cost of "The Hornet Queen".
+- Corrected string in "slot.js".
+
+@riryoku on 15/10/2015 23:33 ICT
+- The 6th slot of "Lethal Rod of Ordnance" has been unlocked.
+
+@riryoku on 14/10/2015 02:30 ICT
+- Updated cost and 6th slot of "Hat of the Braves".
+
+@diewland on 13/10/2015 01:31 ICT
+- Extra slots related on bravanization
+
+@riryoku on 11/10/2015 22:54 ICT
+- The last slot of "Shadow Knight's Mail" has been unlocked.
+
+@riryoku on 11/10/2015 17:40 ICT
+- Uploaded these pictures.
+1) "Dragon Ice Inferno" is "2005"
+2) "Flare Cyclone" is "1112"
+3) "Tempest of Heaven" is "3049"
+4) "Blaze of Darkness" is "3018"
+5) "Lightdrake's Claw Absolut-Justitia" is "3070"
+6) "Queen Ether of Sparklight" is "3056"
+
+@riryoku on 11/10/2015 15:35 ICT
+- The last slot of "Walpurgis Robe" has been unlocked.
+
+@riryoku on 11/10/2015 12:22 ICT
+- The 6th slot of "Shadow Knight's Mail" has been unlocked.
+
+@diewland on 10/10/2015 19:27 ICT
+- Simulator data will not lose when refresh or exit
+
+@riryoku on 10/10/2015 12:20 ICT
+- All remaining slots of "Shadow Knight's Helm" have been unlocked.
+
+@diewland on 09/10/2015 22:49 ICT
+- "Shadow Knight" photos have been added.
+
+@riryoku on 09/10/2015 14:27 ICT
+- All new Gacha items "Shadow Knight" have been added.
+Index
+1) "Shadow's Wrath" is "3165".
+2) "Shadow Piercer" is "3166".
+3) "Shadow Knight's Helm" and "Shadow Knight's Mail" are "3113".
+- All remaining slots of "Shadow's Wrath" have been unlocked. 
+- All pics will be uploaded by @diewland.
+
+@riryoku on 09/10/2015 00:47 ICT
+- The 6th and 7th of "Jyr Yong Blade" have been unlocked.
+- Fixed some errors in DB.
+
+@riryoku on 08/10/2015 12:20 ICT
+- Added "Lost Key to Atlantica" the weapon from ranking event with completely details.
+
+@diewland on 06/10/2015 21:03 ICT
+- Added Oriax Star
+
+@riryoku on 06/10/2015 18:24 ICT
+- The brave skill of "Lucifer's Fallen Mail" and "High Roller's Blackjack Suit" have been added.
+
+@riryoku on 06/10/2015 09:24 ICT
+- The 7th slot of "Medjed's Crown of the Dead" and "Medjed's Robe of the Dead" have been unlocked.
+
+@diewland on 06/10/2015 00:25 ICT
+- Added The Hornet Queen sword
+
+@riryoku on 04/10/2015 23:45 ICT
+- Corrected the max brave skill of "Apollion Epic Mail".
+- The 6th slot of "Lamia's Vengeance" has been unlocked.
+- Corrected the cost of "Lamia's Vengeance".
+
+@riryoku on 03/10/2015 14:28 ICT
+- The 7th slot of "Epoch Chronos Lance" and "Walpurgis Hat" have been unlocked.
+
+@diewland on 03/10/2015 01:23 ICT
+- "Epoch Chronos" photos have been uploaded
+
+@riryoku on 02/10/2015 16:56 ICT
+- The 6th slot of "Epoch Chronos Lance" has been unlocked.
+
+@riryoku on 02/10/2015 14:29 ICT
+- All new Gacha items "Epoch Chronos" have been added
+- The 6th and 7th of "Epoch Chronos Rod", "Epoch Chronos Helm" and "Epoch Chronos Mail" have been unlocked.
+- Index of all new Gacha 
+1) "3110" for costume
+2) "3150" for Lance
+3) "3151" for Rod
+Wait @diewland for upload them all.
+
+@riryoku on 02/10/2015 08:13 ICT
+- Added the last year Halloween outfit "All Hallows' Hat/Headband" and "All Hallows' Garb" with initial details.
+- Index of Halloween outfit is no longer available on my device. We will upload when found them all.
+
+@riryoku on 01/10/2015 08:05 ICT
+- The 7th slot of "Spear of Valhalla" has been added.
+- Corrected some values.
+
+@riryoku on 30/09/2015 14:10 ICT
+- Added obsoleted boss weapons as follow.
+1) Dragon Ice Inferno
+2) Blaze of Darkness
+3) Flare Cyclone
+4) Tempest of Heaven
+5) Lightdrake's Claw Absolut-Justitia
+6) Queen Ether of Sparklight
+- Wait for SS picture of all from @diewland.
+
+@riryoku on 30/09/2015 09:06 ICT
+- Added some obsoleted event gears as below.
+1) "Dendron Hat" + "Dendron Garb" 
+2) "Helmet of Gloria" + "Armor of Sanctus" and "Armor of Sanctus+"
+3) "Divine Helm of Renatus" + "Divine Armor of Renatus"
+4) "Helm of Holy Light" + "Harness of Holy Light"
+5) "Cobalt Crown" + "Cerulean Sea Mail"
+6) "Pure Luminous Pendragon" + "Pure Photon Arts"
+7)  "Helmet of Cavaliere" + "Armor of Equitatus"
+- Some obsoleted gear pictures are no longer available on my device due to they were dismantled. please wait to trial and error. We will upload them when we found.
+
+@riryoku on 30/09/2015 08:02 ICT
+- The 7th slot of "Lucifer's Fallen Mail" and "Samsara Lance Longinus" have been added.
+
+@diewland on 29/09/2015 22:45 ICT
+- Upload "Hollow Edge Albion X" photo
+- Added Vapula's Wrath, Legendary Item
+- Added Lost Key to Atlantica, King of Quest 3 Item
+
+@riryoku on 29/09/2015 14:00 ICT
+- Corrected some values.
+
+@riryoku on 28/09/2015 11:17 ICT
+- Added current event weapon "Hollow Edge Albion X" with 6th slot.
+- Wait @diewland for upload picture code "1505" for "Hollow Edge Albion" series.
+
+@riryoku on 27/09/2015 04:58 ICT
+- The 7th of the both "Brave Valor" head and body have been added by based on the "Noble Valor".
+
+@diewland on 25/09/2015 23:15 ICT
+- Upload pictures of Limited Dark-Light Equipments
+
+@riryoku on 25/09/2015 16:11 ICT
+- The 6th and 7th slots of "Lamia's Agony" have been added.
+
+@riryoku on 25/09/2015 13:54 ICT
+- Added current event suit "Orocoth Ale" with completely details.
+- Wait @diewland for upload picture code "9028".
+- Added new limited entries "Lamia's Agony" and "Lamia's Vengeance" with initial details.
+- Wait @diewland for upload both pictures of weapon code "3169" for "Lamia's Agony" and "3168" for "Lamia's Vengeance".
+
+@riryoku on 25/09/2015 12:49 ICT
+- Added new limited entries "Bloodlust Vow" and "Blood of Vengeance" with completely details.
+- Wait @diewland for upload pictures of costume code "3115" and "Invictus Lv.6" element.
+
+@riryoku on 25/09/2015 08:20 ICT
+- Modified DB to be shown the "Brave Skill" at the max level.
+
+@riryoku on 23/09/2015 13:24 ICT
+- The cost of both "Red Riding Hood" and "Hooded Hunter's Dress" have been updated.
+- The 6th and 7th slot of "Hooded Hunter's Dress" have been added.
+
+@riryoku on 23/09/2015 07:47 ICT
+- The 7th slot of "Gallium Celeste" has been added.
+
+@riryoku on 23/09/2015 04:30 ICT
+- The 6th and 7th slots of "Highland Festive Cap" have been added.
+- The 6th slot of "Highland Festive Dress" has been added.
+- The cost of both "Jyr Yong Blade" and "Yong Shyr Mace" have been updated.
+- The 6th slot of "Yong Shyr Mace" has been added.
+- The 6th and 7th slots of "Lethal Artillery Vest" have been added.
