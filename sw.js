@@ -1,4 +1,4 @@
-var cacheName = 'ssbwear-v1';
+var cacheName = 'ssbwear-v1.1';
 var filesToCache = [
   './',
   './index.html',
