@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.diewland.ssbwear2",
+               "sha256_cert_fingerprints": ["67:56:2D:61:9E:66:E9:D3:6C:D2:19:7B:63:6B:46:BC:C1:18:E8:05:EB:1B:EE:8D:41:17:DF:B6:72:6D:11:E6"] }
+}]
