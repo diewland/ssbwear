@@ -1,6 +1,9 @@
 html, body {
     height: 100%;
 }
+body { /* navbar fix top */
+    padding-top: 50px;
+}
 a, a:hover {
     text-decoration: none;
     color: #000;
