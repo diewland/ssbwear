@@ -1,8 +1,10 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
 
-// manifest must always fresh
+// find from network first
+// - manifest.json
+// - .well-known/assetlinks.json
 workbox.routing.registerRoute(
-  /manifest\.json$/,
+  /(manifest|assetlinks)\.json/,
   new workbox.strategies.NetworkFirst()
 );
 
